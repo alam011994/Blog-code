@@ -46,13 +46,23 @@ dependencies {
 
 Its fairly simple and straight forward to use *MarkdownView* in you application. Just add the following in your layout where you want to display the markdown file/text.
 
-```XML
+```
 <com.mukesh.MarkdownView
     android:id="@+id/markdown_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 />
 ```
+
+<code>
+ ```
+<com.mukesh.MarkdownView
+    android:id="@+id/markdown_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+/>
+```
+</code>
 
 and reference it in your activity/fragment and assign the markdown text/file like wise.
 ```Java
@@ -75,7 +85,7 @@ Maintained by [Mukesh Solanki](https://www.github.com/mukeshsolanki)
 * Make sure you use [square/java-code-styles](https://github.com/square/java-code-styles) to format your code.
 
 ## License
-<code>
+
 ```
 Copyright (c) 2018 Mukesh Solanki
 
@@ -97,4 +107,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-</code>
+
