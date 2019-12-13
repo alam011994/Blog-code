@@ -11,7 +11,6 @@
 
 
 ![Demo](https://raw.githubusercontent.com/mukeshsolanki/MarkdownView-Android/master/Screenshots/demo.gif)
-<img src="https://raw.githubusercontent.com/mukeshsolanki/MarkdownView-Android/master/Screenshots/demo.gif" width="300"> 
 # Supporting MarkdownView
 
 MarkdownView is an independent project with ongoing development and support made possible thanks to donations made by [these awesome backers](BACKERS.md#sponsors). If you'd like to join them, please consider:
@@ -36,36 +35,26 @@ allprojects {
 </pre>
 
 Step 2. Add the dependency
-```java
+<pre>
 dependencies {
     implementation 'com.github.mukeshsolanki:MarkdownView-Android:<latest-version>'
 }
-```
+</pre>
 
 ## How to use MarkdownView
 
 Its fairly simple and straight forward to use *MarkdownView* in you application. Just add the following in your layout where you want to display the markdown file/text.
 
-```
+<pre>
 <com.mukesh.MarkdownView
     android:id="@+id/markdown_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 />
-```
-
-<code>
- ```
-<com.mukesh.MarkdownView
-    android:id="@+id/markdown_view"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-/>
-```
-</code>
+</pre>
 
 and reference it in your activity/fragment and assign the markdown text/file like wise.
-```Java
+<pre>
 MarkdownView markdownView = (MarkdownView) findViewById(R.id.markdown_view);
 markdownView.setMarkDownText("# Hello World\nThis is a simple markdown"); //Displays markdown text
 ...
@@ -73,7 +62,7 @@ markdownView.loadMarkdownFromAssets("README.md"); //Loads the markdown file from
 ...
 File markdownFile=new File("filePath");
 markdownView.loadMarkdownFromFile(markdownFile); //Loads the markdown file.
-```
+</pre>
 
 ## Author
 Maintained by [Mukesh Solanki](https://www.github.com/mukeshsolanki)
@@ -85,8 +74,7 @@ Maintained by [Mukesh Solanki](https://www.github.com/mukeshsolanki)
 * Make sure you use [square/java-code-styles](https://github.com/square/java-code-styles) to format your code.
 
 ## License
-
-```
+<pre>
 Copyright (c) 2018 Mukesh Solanki
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -106,5 +94,5 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-```
+</pre>
 
