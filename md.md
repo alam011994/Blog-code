@@ -1,1 +1,1 @@
-<a href="https://drive.google.com/file/d/15cPdRN-afT3pCSgewQ2QEKETKH4fCGMr/preview" title="Link Title"><img src="https://1.bp.blogspot.com/-Vdt1q-ohOT4/Xc2dr5VQhQI/AAAAAAAAAMY/P2XFAYIdJx8f-6ZrfZTMDOnsIqpPzrXhQCLcBGAsYHQ/s1600/SS%2BICS%2BAPP.png" alt="Alternate Text" /></a>
+https://drive.google.com/file/d/15cPdRN-afT3pCSgewQ2QEKETKH4fCGMr/preview
