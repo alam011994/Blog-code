@@ -1,5 +1,5 @@
 <?php
-$path = "https://api.telegram.org/bot1139013144:AAExoaCPVa6VEkUCsZTKqpzW5oaIEkjqAY0;
+$path = "https://api.telegram.org/bot1258201602:AAGAKTU_LwhEh4UewwhtvRAbmU04YtAVp4w;
 
 $update = json_decode(file_get_contents("php://input"), TRUE);
 
