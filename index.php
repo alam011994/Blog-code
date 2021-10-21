@@ -55,8 +55,8 @@
         error_reporting(-1);
         ini_set('display_errors', 'On');
 
-        require_once __DIR__ . 'https://firebasestorage.googleapis.com/v0/b/citra-tech.appspot.com/o/push%2Ffirebase.php?alt=media&token=';
-        require_once __DIR__ . 'https://firebasestorage.googleapis.com/v0/b/citra-tech.appspot.com/o/push%2Fpush.php?alt=media&token=';
+        require_once __DIR__ . 'https://raw.githubusercontent.com/alam011994/Blog-code/master/firebase.php';
+        require_once __DIR__ . 'https://raw.githubusercontent.com/alam011994/Blog-code/master/push.php';
 
         $firebase = new Firebase();
         $push = new Push();
