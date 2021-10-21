@@ -37,7 +37,7 @@ class Firebase {
     // function makes curl request to firebase servers
     private function sendPushNotification($fields) {
         
-        require_once __DIR__ . '/https://firebasestorage.googleapis.com/v0/b/citra-tech.appspot.com/o/push%2Fconfig.php?alt=media&token=';
+        require_once __DIR__ . 'https://raw.githubusercontent.com/alam011994/Blog-code/master/config.php';
 
         // Set POST variables
         $url = 'https://fcm.googleapis.com/fcm/send';
